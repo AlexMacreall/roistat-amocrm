@@ -24,16 +24,16 @@
 <input type="text" style="display: none" id="start_time" />
 
 <form action="api/lead-create.php" method="get" onsubmit="calculateTime();">
-    <label for="name">Name имя</label><br />
+    <label for="name">Имя</label><br />
     <input type="text" id="client_name" name="client_name" required/><br />
 
     <label for="email">E-mail</label><br />
     <input type="email" id="client_email" name="client_email" required/><br />
 
-    <label for="tel">Phone number</label><br />
+    <label for="tel">Номер телефона</label><br />
     <input type="tel" id="client_phone" name="client_phone" required/><br />
 
-    <label for="price">Price</label><br />
+    <label for="price">Цена</label><br />
     <input type="number" id="product_price" name="product_price" required/><br />
     <input type="number" id="time_spent" name="time_spent" style="display: none" />
     <input type="submit" value="Sumbit" />
