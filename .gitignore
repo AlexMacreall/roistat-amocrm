@@ -1,0 +1,11 @@
+/www/alexmacreall.ru/.env
+/www/alexmacreall.ru/token.json
+/.cache/
+/.config/
+/.filemgr-tmp/
+/.local/
+/.pki/
+/.subversion/
+/.bash_history
+/.bashrc
+/.profile
