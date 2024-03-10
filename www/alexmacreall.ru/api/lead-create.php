@@ -92,18 +92,8 @@ echo "OK. LEAD_ID: {$lead->getId()}";
 $contact = new ContactModel();
 $contact->setName($contactName);
 
-//try {
-//    $contactModel = $apiClient->contacts()->addOne($contact);
-//} catch (AmoCRMApiException $e) {
-//    echo $e;
-//    die;}
-
-
-
 $contact->setCustomFieldsValues(new CustomFieldsValuesCollection());
 $customFields = $contact->getCustomFieldsValues();
-//$customFields = new CustomFieldsValuesCollection();
-//$contact->setCustomFieldsValues(new CustomFieldsValuesCollection());
 
 $emailField = (new MultitextCustomFieldValuesModel())->setFieldCode('EMAIL');
         
